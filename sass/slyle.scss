@@ -1,0 +1,27 @@
+@import 'reboot/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: grey;
+}
+
+@import 'blocks/acquiring';
+@import 'blocks/buttons';
+@import 'blocks/payments';
+@import 'blocks/choice';
+@import 'blocks/payment-places';
+@import 'blocks/prices';
+@import 'blocks/modal';
+@import 'blocks/carousel';
+@import 'blocks/media';

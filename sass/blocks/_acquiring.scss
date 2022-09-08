@@ -1,0 +1,39 @@
+.acquiring {
+    padding-top: 200px;
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        width: 1045px;
+        margin: 0 auto;
+    }
+    &__info {
+        width: 703px;
+    }
+    &__img {
+        width: 342px;
+        height: 229px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 48px;
+        color: #0F348C;
+        span {
+            color: #FE5339;
+        }
+    }
+    &__text {
+        margin-top: 18px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #000000;
+    }
+}

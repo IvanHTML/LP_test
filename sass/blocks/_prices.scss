@@ -1,0 +1,96 @@
+.prices {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    &__wrapper {
+        width: 1153px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cost {
+        width: 300px;
+        &-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 43px;
+            color: #0F348C;
+            span {
+                color: #FE5339;
+            }
+        }
+        &-descr {
+            margin-top: 20px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+        }
+    }
+    &__commission {
+        width: 761px;
+        min-height: 380px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 10px rgba(107, 139, 217, 0.1);
+        border-radius: 26px;
+        &-header {
+            height: 109px;
+            background: #EBF4FD;
+            border-radius: 26px 26px 0px 0px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 27px;
+            color: #0F348C;
+            padding: 35px 169px 29px 64px;
+            span {
+                color: #FE5339;
+            }
+        }
+        &-table {
+            width: 670px;
+            margin: 0 auto;
+            .headers {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 130%;
+                color: #0F348C;
+
+            }
+            .items {
+                .item {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 35px;
+                    margin-bottom: 13px;
+                    
+                    &-name {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #242424;
+                        margin-right: 100px;
+                    }
+                    &-amount {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        color: #0F348C;
+                        margin-right: 95px;
+                    }
+                }
+                hr {
+                    height: 0px;
+                    border: 1px solid #EFEFEF;
+                }
+            }
+        }
+    }
+}
